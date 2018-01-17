@@ -118,7 +118,7 @@ hi cssValueLength ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bd93f9 guibg=NONE g
 hi cssCommonAttr ctermfg=81 ctermbg=NONE cterm=NONE guifg=#6be5fd guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi TabLineFill ctermfg=NONE ctermbg=255 guifg=#282a36 guibg=#f8f8f2 gui=none
-hi TabLine ctermfg=255 ctermbg=NONE guifg=#f8f8f2 guibg=#282a36 gui=none
+hi TabLine ctermfg=255 ctermbg=NONE term=NONE cterm=NONE guifg=#f8f8f2 guibg=#282a36 gui=none
 hi TabLineSel ctermfg=255 ctermbg=NONE term=underline cterm=underline guifg=#f8f8f2 guibg=#282a36 gui=none
 
 " Elixir {{{
