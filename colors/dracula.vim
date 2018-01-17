@@ -117,9 +117,9 @@ hi cssClassName ctermfg=84 ctermbg=NONE cterm=NONE guifg=#50fa7b guibg=NONE gui=
 hi cssValueLength ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bd93f9 guibg=NONE gui=NONE
 hi cssCommonAttr ctermfg=81 ctermbg=NONE cterm=NONE guifg=#6be5fd guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi TabLineFill  guifg=#333333 guibg=#282a36 gui=none
-hi TabLine      guifg=#666666 guibg=#282a36 gui=none
-hi TabLineSel   guifg=WHITE guibg=#282a36 gui=none
+hi TabLineFill ctermfg=NONE ctermbg=255 guifg=#282a36 guibg=#f8f8f2 gui=none
+hi TabLine ctermfg=255 ctermbg=NONE guifg=#f8f8f2 guibg=#282a36 gui=none
+hi TabLineSel ctermfg=255 ctermbg=NONE term=underline cterm=underline guifg=#f8f8f2 guibg=#282a36 gui=none
 
 " Elixir {{{
 hi elixirAtom ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic"
